@@ -1,29 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 body {
-  background-color: #0a0a0a;
-  /* Deep hacker black */
-  color: #22c55e;
-  /* Terminal green */
+  background-color: #050505;
+  color: #f8fafc;
+  overflow-x: hidden;
 }
 
-/* A cool little glowing effect for our green text */
-.glow-text {
-  text-shadow: 0 0 5px rgba(34, 197, 94, 0.5);
-}
-
-/* Custom scrollbar to keep it sleek */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #0a0a0a;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #166534;
-  border-radius: 4px;
+::selection {
+  background: #334155;
+  color: #fff;
 }
